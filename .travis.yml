@@ -9,4 +9,4 @@ script:
 # Test the code
 - go test -v ./...
 # Build the code 
-- CGO_ENABLED=0 GOARCH=amd64 os: linux
+- CGO_ENABLED=0 GOARCH=amd64
